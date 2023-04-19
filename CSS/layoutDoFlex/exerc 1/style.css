@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.icon{
+    width: 40px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.buttons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+   
+}
+
+.buttonnHeader{
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buttonnHeader:hover {
+    border-color: #ff0044;
+}

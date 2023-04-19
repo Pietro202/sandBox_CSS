@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkgray;
+    min-height: 100vh;
+    display: flex;
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    /*width: 200px;*/
+    height: 200px;
+    background-color: white;
+    border: 2px solid black; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+}
+
